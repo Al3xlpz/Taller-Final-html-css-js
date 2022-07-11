@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frutas</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -26,18 +27,23 @@
     </header>
 
     <ol class="lista">    
-        <li id="impar">Banano</li>
-        <li id="par">Manzana</li>
-        <li id="impar">Fresa</li>
-        <li id="par">Granadilla</li>
-        <li id="impar">Mora</li>
-        <li id="par">Pera</li>
-        <li id="impar">Guanabana</li>
-        <li id="par">Melon</li>
-        <li id="impar">Lulo</li>
-        <li id="par">Naranja</li>
+        <li class="impar">Banano</li>
+        <li class="par">Manzana</li>
+        <li class="impar">Fresa</li>
+        <li class="par">Granadilla</li>
+        <li class="impar">Mora</li>
+        <li class="par">Pera</li>
+        <li class="impar">Guanabana</li>
+        <li class="par">Melon</li>
+        <li class="impar">Lulo</li>
+        <li class="par">Naranja</li>
     </ol>
+    <div class="toggle-container">  
+        <button class="impar" onclick="setTheme('im')" title="impar"> IMPAR
+        </button>
+        <button class="par" onclick="setTheme('pa')" title="par"> PAR
+        </button>
 
-
+    <script src="js/funciones.js"></script>
 </body>
 </html>

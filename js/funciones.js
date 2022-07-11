@@ -31,3 +31,5 @@ const enviar = () => {
         console.log(mensaje);
     }
 }
+
+const setTheme = theme => document.documentElement.className = theme;

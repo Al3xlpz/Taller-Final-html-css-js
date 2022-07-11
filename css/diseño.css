@@ -125,6 +125,24 @@ button {
     box-shadow: 7px 13px 37px rgba(243, 235, 235, 0.5);
 }
 
+.toggle-container {
+
+    background-color: #000;
+    bottom: 600px;
+    right: 320px;
+    }
+    .toggle-container:hover {
+        background-color:#06ca06c5;
+    }
+
+:root,
+:root.im {
+    --text-color: rgb(255, 0, 0);
+    }
+:root.pa {
+    --text-color: rgb(255, 0, 0);
+    }
+
 
 section a {
     text-decoration: none;
@@ -136,3 +154,12 @@ section a {
     border-bottom: 2px solid rgb(72, 197, 255);
     color: white;
 }
+
+.lista{
+    color: #2197e6;
+    width: 50px;
+    padding: 5em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
